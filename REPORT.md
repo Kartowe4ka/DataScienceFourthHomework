@@ -40,6 +40,12 @@ ResidualCNN модель
 RegResidualCNN модель
 ![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(RegResidualCNN).png)
 
+По графикам видно, что первые две модели подвергаются переобучению, так как кривые для тестовой выборки со временем начинают идти в противоположном направлении
+
+___
+
+№ Задание 2.1 - Влияние размера ядра свертки
+
 
 
 
