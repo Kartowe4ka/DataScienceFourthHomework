@@ -34,11 +34,11 @@ ___
 
 ## Графики:
 FCN модель
-![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(FCN).png)
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(FCN).png)
 ResidualCNN модель
-![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(ResidualCNN).png)
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(ResidualCNN).png)
 RegResidualCNN модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(RegResidualCNN).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(RegResidualCNN).png)
 
 По графикам видно, что первые две модели подвергаются переобучению, так как кривые для тестовой выборки со временем начинают идти в противоположном направлении
 
