@@ -59,13 +59,13 @@ ___
 
 ## Графики:
 CNN 3x3 модель
-![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(CNN3x3).png)
 CNN 5x5 модель
-![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(CNN5x5).png)
 CNN 7x7 модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN7x7).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(CNN7x7).png)
 CNN 1x1 + 3x3 модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN1x13x3).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.1(CNN1x13x3).png)
 
 ___
 
