@@ -59,13 +59,37 @@ ___
 
 ## Графики:
 CNN 3x3 модель:
-![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(FCN).png)
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
 CNN 5x5 модель
-![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(ResidualCNN).png)
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
 CNN 7x7 модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(RegResidualCNN).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN7x7).png)
 CNN 1x1 + 3x3 модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(RegResidualCNN).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN1x13x3).png)
+
+___
+
+# Задание 2.2 - Влияние глубины CNN\
+
+Для первых трех моделей я использовал один класс, в котором изменял кол-во conv слоев для каждого отдельного тестирования. Для последней модели использовал класс CNNwithResidual. Для визуализации и извлечения информации использовал функцию `get_experiment_data`, которая запускала обучение модели, а также находила кол-во параметров, время обучения, время инференса, а также создавала кривые обучения.
+
+## Итоговый результат в таблице (данные представлены для 10 эпох):
+| Модель      | TrainLoss | TrainAcc | TestLoss | TestAcc | Время обучения (с) | Время инференса (с) | Кол-во параметров |
+|-------------|-----------|----------|----------|---------|--------------------|---------------------|-------------------|
+| CNN 3x3     |  0.0128   |  0.9958  |  0.0335  | 0.9911  |         123        |        0.92         |       421,642     |
+| CNN 5x5     |  0.0125   |  0.9960  |  0.0326  | 0.9920  |         99         |        1.09         |       454,922     |
+| CNN 7x7     |  0.0132   |  0.9958  |  0.0349  | 0.9911  |         106        |        1.09         |       504,842     |
+| CNN 1x1 3x3 |  0.0141   |  0.9951  |  0.0290  | 0.9931  |         103        |        0.99         |       427,050     |
+
+## Графики
+CNN 3x3 модель:
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
+CNN 5x5 модель
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
+CNN 7x7 модель
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN7x7).png)
+CNN 1x1 + 3x3 модель
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN1x13x3).png)
 
 
 
