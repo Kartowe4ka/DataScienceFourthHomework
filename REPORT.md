@@ -11,4 +11,4 @@
 | ResidualCNN |  0.0220   |  0.9928  |  0.0312  | 0.9908  |         73         |        0.98         |      160,906      |
 
 ## Графики:
-
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(FCN).png)
