@@ -83,13 +83,13 @@ ___
 
 ## Графики
 CNN 2 conv
-![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.2(2%20conv).png)
 CNN 4 conv
-![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.2(4%20conv).png)
 CNN 6 conv
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN7x7).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.2(6%20conv).png)
 ResidualCNN
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN1x13x3).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/plots/2.2(ResidualCNN).png)
 
 
 
