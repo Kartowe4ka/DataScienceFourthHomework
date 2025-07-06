@@ -11,7 +11,7 @@
 | ResidualCNN |  0.0220   |  0.9928  |  0.0312  | 0.9908  |         73         |        0.98         |      160,906      |
 
 ## Графики:
-FCN модель:
+FCN модель
 ![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(FCN).png)
 SimpleCNN модель
 ![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(SimpleCNN).png)
@@ -33,7 +33,7 @@ ___
 | RegResidualCNN |  0.7458   |  0.7374  |  0.6596  | 0.7719  |         173        |        1.43         |       416,202     |
 
 ## Графики:
-FCN модель:
+FCN модель
 ![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(FCN).png)
 ResidualCNN модель
 ![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(ResidualCNN).png)
@@ -44,7 +44,7 @@ RegResidualCNN модель
 
 ___
 
-№ Задание 2.1 - Влияние размера ядра свертки
+# Задание 2.1 - Влияние размера ядра свертки
 
 Для ядер 3x3, 5x5 и 7x7 я использовал одинаковый класс, внутри которой просто менял kernel_size и padding отдельно для каждого теста. Для комбинации разных размеров я создал отдельный класс CNN_1x1_3x3. Для визуализации и извлечения информации использовал функцию `get_experiment_data`, которая запускала обучение модели, а также находила кол-во параметров, время обучения, время инференса, а также создавала кривые обучения.
 
@@ -58,7 +58,7 @@ ___
 | CNN 1x1 3x3 |  0.0141   |  0.9951  |  0.0290  | 0.9931  |         103        |        0.99         |       427,050     |
 
 ## Графики:
-CNN 3x3 модель:
+CNN 3x3 модель
 ![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
 CNN 5x5 модель
 ![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
@@ -69,26 +69,26 @@ CNN 1x1 + 3x3 модель
 
 ___
 
-# Задание 2.2 - Влияние глубины CNN\
+# Задание 2.2 - Влияние глубины CNN
 
 Для первых трех моделей я использовал один класс, в котором изменял кол-во conv слоев для каждого отдельного тестирования. Для последней модели использовал класс CNNwithResidual. Для визуализации и извлечения информации использовал функцию `get_experiment_data`, которая запускала обучение модели, а также находила кол-во параметров, время обучения, время инференса, а также создавала кривые обучения.
 
 ## Итоговый результат в таблице (данные представлены для 10 эпох):
 | Модель      | TrainLoss | TrainAcc | TestLoss | TestAcc | Время обучения (с) | Время инференса (с) | Кол-во параметров |
 |-------------|-----------|----------|----------|---------|--------------------|---------------------|-------------------|
-| CNN 3x3     |  0.0128   |  0.9958  |  0.0335  | 0.9911  |         123        |        0.92         |       421,642     |
-| CNN 5x5     |  0.0125   |  0.9960  |  0.0326  | 0.9920  |         99         |        1.09         |       454,922     |
-| CNN 7x7     |  0.0132   |  0.9958  |  0.0349  | 0.9911  |         106        |        1.09         |       504,842     |
-| CNN 1x1 3x3 |  0.0141   |  0.9951  |  0.0290  | 0.9931  |         103        |        0.99         |       427,050     |
+| CNN 2 conv  |  0.0107   |  0.9963  |  0.0304  | 0.9924  |         172        |        2.12         |       421,642     |
+| CNN 4 conv  |  0.0125   |  0.9960  |  0.0326  | 0.9920  |         99         |        1.09         |       454,922     |
+| CNN 6 conv  |  0.0132   |  0.9958  |  0.0349  | 0.9911  |         106        |        1.09         |       504,842     |
+| ResidualCNN |  0.0141   |  0.9951  |  0.0290  | 0.9931  |         103        |        0.99         |       427,050     |
 
 ## Графики
-CNN 3x3 модель:
+CNN 2 conv
 ![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN3x3).png)
-CNN 5x5 модель
+CNN 4 conv
 ![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN5x5).png)
-CNN 7x7 модель
+CNN 6 conv
 ![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN7x7).png)
-CNN 1x1 + 3x3 модель
+ResidualCNN
 ![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(CNN1x13x3).png)
 
 
