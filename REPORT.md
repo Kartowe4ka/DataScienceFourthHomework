@@ -34,11 +34,11 @@ ___
 
 ## Графики:
 FCN модель:
-![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(FCN).png)
+![FCN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(FCN).png)
 ResidualCNN модель
-![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(SimpleCNN).png)
+![ResidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(ResidualCNN).png)
 RegResidualCNN модель
-![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/1.1(ResidualCNN).png)
+![RegresidualCNN модель](https://github.com/Kartowe4ka/DataScienceFourthHomework/blob/main/2.1(RegResidualCNN).png)
 
 
 
